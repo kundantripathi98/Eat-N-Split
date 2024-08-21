@@ -3,7 +3,6 @@ import { useState } from "react";
 import Friend from "./Friend";
 
 const FriendsList = ({friends, selectedFriend, onSelect}) => {
-    // const friends = initialFriends;
 
     return <ul>
         {friends.map((friend)=>(
@@ -13,4 +12,3 @@ const FriendsList = ({friends, selectedFriend, onSelect}) => {
   }
   
   export default FriendsList;
-  

@@ -1,7 +1,6 @@
 import { useState } from "react";
 // import { initialFriends } from "../App";
 import Friend from "./Friend";
-
 const FriendsList = ({friends, selectedFriend, onSelect}) => {
 
     return <ul>
